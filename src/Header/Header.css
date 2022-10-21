@@ -1,0 +1,16 @@
+.header{
+    background-color: var(--prim);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.header img{
+    height: 13rem;
+    margin-top: 1rem;
+    opacity: .5;
+}
+
+.header img:hover{
+    opacity: 1;
+}

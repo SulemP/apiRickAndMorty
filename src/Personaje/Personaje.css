@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Gemunu+Libre:wght@200&family=Silkscreen&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Gemunu+Libre:wght@200&family=Silkscreen&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Gemunu+Libre:wght@200&family=Silkscreen&family=Teko:wght@300&display=swap');
+
+/* 
+///////////// ESTILOS DE FUENTES /////////////
+font-family: 'Creepster', cursive;
+font-family: 'Gemunu Libre', sans-serif;
+font-family: 'Silkscreen', cursive;
+font-family: 'Teko', sans-serif;
+ */
+
+.personaje{
+    margin-top: 5rem;
+    padding-bottom: 1rem;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(200,204,207,1);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(200,204,207,1);
+    box-shadow: 0px 0px 10px 2px rgba(200,204,207,1);
+}
+
+.personaje:hover{
+    background-color: var(--prim);
+    transform: translateY(-3%);
+    -webkit-box-shadow: 0px 0px 50px 20px rgb(177, 181, 184);
+    /* -webkit-box-shadow: 0px 0px 50px 20px rgba(200,204,207,1); */
+    -moz-box-shadow: 0px 0px 50px 20px rgba(177, 181, 184);
+    box-shadow: 0px 0px 50px 20px rgba(177, 181, 184);
+    color: white;
+}
+
+.personaje-name{
+    font-size: 2rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--sec);
+    font-family: 'Creepster', cursive;
+}
+
+.personaje-img{
+    margin-bottom: 1rem;
+}
+
+.personaje-sub{
+    font-size: 1.4rem;
+    font-family: 'Gemunu Libre', sans-serif;
+    padding: 0 10px;
+}
+
+.personaje-status{
+    /* background-color: black; */
+    /* border: 1px solid var(--prim); */
+    box-shadow: 0px 0px 10px 1px rgba(177, 181, 184);
+    width: 35%;
+    height: 2rem;
+}
+
+.personaje-status p{
+    font-family: 'Creepster', cursive;
+    margin-top: 1rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+.personaje > .personaje-status{
+    
+}
+
+.alive{
+    color:rgb(5, 172, 5);
+
+}
+
+.dead{
+    color:red;
+}
+
+.unknown{
+    color:gray;
+}
